@@ -154,6 +154,20 @@ html,body{
     height: 100%;
     width: 24%;
     background-color: rgb(252, 252, 252);
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.bottom-1>span{
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+}
+
+.bottom-1>p{
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
 }
 .bottom-2{
     height: 100%;
@@ -173,7 +187,14 @@ html,body{
     background-image: url(https://plus.unsplash.com/premium_photo-1677838847804-4054143fb91a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: 50% 50%;
-    opacity: .3;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bottom-3-top>span{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    z-index: 11;
 }
 
 .bottom-3-bottom{
