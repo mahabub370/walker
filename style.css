@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#top{
+    height: 55%;
+    width: 100%;
+    background-image: url(https://www.aimusicpreneur.com/wp-content/uploads/2024/02/dj-alan-walker-ai-walker-world-fortnite.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#top> #overly{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+.overly-top{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overly-top-left{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 5vh;
+    left: 5%;
+}
+
+.overly-top-left> i{
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+}
+
+.overly-top-left> h5{
+    font-size: 2vw;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+
+.overly-top-right{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 5vh;
+    right: 5%;
+}
+
+.overly-top-right> i{
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+}
+
+.overly-bottom{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 60%;
+
+}
+
+.overly-bottom-left{
+    position: absolute;
+    left: 5%;
+}
+
+.overly-bottom-left>h1{
+    font-size: 4vw;
+    color: white;
+}
+
+.overly-bottom-right{
+    position: absolute;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overly-bottom-right-text-1{
+    padding-right: 80px;
+    margin-right: 50px;
+}
+
+.overly-bottom-right-text-1>h6{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 8px;
+}
+
+.overly-bottom-right-text-1>p{
+    color: white;
+}
+
+.overly-bottom-right-text-2{
+    padding-right: 80px;
+    margin-right: 50px;
+}
+
+.overly-bottom-right-text-2>h6{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 8px;
+}
+
+.overly-bottom-right-text-2>p{
+    color: white;
+}
+
+.overly-bottom-right-icons{
+    font-size: 1.5vw;
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.overly-bottom-right-icons>i{
+    padding-left: 30px;
+}
+
+#bottom{
+    display: flex;
+    height: 45%;
+    width: 100%;
+}
+
+.bottom-1{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(252, 252, 252);
+}
+.bottom-2{
+    height: 100%;
+    width: 26%;
+    background-image: url(https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.bottom-3{
+    height: 100%;
+    width: 24%;
+}
+
+.bottom-3-top{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1677838847804-4054143fb91a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: .3;
+}
+
+.bottom-3-bottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.bottom-4{
+    height: 100%;
+    width: 26%;
+    background-color: rgb(39, 39, 39);
+}
